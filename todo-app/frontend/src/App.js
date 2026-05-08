@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div style={{ maxWidth: 500, margin: '40px auto', fontFamily: 'sans-serif' }}>
-      <h1>📝 Todo App</h1>
+      <h1>📝 Todo App - DSO101</h1>
       <div style={{ display: 'flex', gap: 8 }}>
         <input value={task} onChange={e => setTask(e.target.value)}
           placeholder="Add a task..." style={{ flex: 1, padding: 8 }} />
