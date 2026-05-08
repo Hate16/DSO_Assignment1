@@ -3,6 +3,7 @@ services:
     name: be-todo
     env: docker
     dockerfilePath: ./todo-app/backend/Dockerfile
+    dockerContext: ./todo-app/backend
     region: oregon
     plan: free
     envVars:
@@ -25,6 +26,7 @@ services:
     name: fe-todo
     env: docker
     dockerfilePath: ./todo-app/frontend/Dockerfile
+    dockerContext: ./todo-app/frontend
     region: oregon
     plan: free
     envVars:
